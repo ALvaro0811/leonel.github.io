@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Emprendimiento Tomatodos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        .portfolio-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .portfolio-item {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            overflow: hidden;
+            transition: transform 0.3s;
+        }
+        .portfolio-item:hover {
+            transform: scale(1.05);
+        }
+        .portfolio-item img {
+            width: 100%;
+            height: auto;
+        }
+        .portfolio-item h3 {
+            margin: 0;
+            padding: 1rem;
+            background-color: #f9f9f9;
+            border-bottom: 1px solid #ddd;
+        }
+        .portfolio-item p {
+            padding: 1rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nuestro Portafolio</h1>
+        <p>Explora algunos de nuestros productos destacados</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="container">
+        <h2>Productos Destacados</h2>
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="modelo1.jpg" alt="Tomatodo de plástico modelo 1">
+                <h3>Tomatodo de Plástico - Modelo Clásico</h3>
+                <p>Un diseño práctico y resistente, ideal para el uso diario.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="modelo2.jpg" alt="Tomatodo de plástico modelo 2">
+                <h3>Tomatodo de Plástico - Estilo Deportivo</h3>
+                <p>Perfecto para actividades físicas y al aire libre.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="modelo3.jpg" alt="Tomatodo de metal modelo 1">
+                <h3>Tomatodo de Metal - Acero Inoxidable</h3>
+                <p>Conserva la temperatura de tus bebidas por más tiempo.</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="modelo4.jpg" alt="Tomatodo de metal modelo 2">
+                <h3>Tomatodo de Metal - Edición Premium</h3>
+                <p>Diseño elegante y sofisticado, ideal para regalos.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Emprendimiento Tomatodos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Emprendimiento Tomatodos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+        nav a:hover {
+            background-color: #4CAF50;
+        }
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 1rem;
+            background: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #4CAF50;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        label {
+            font-weight: bold;
+        }
+        input, textarea, button {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #333;
+            color: white;
+            margin-top: 2rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Contáctanos</h1>
+        <p>Estamos aquí para ayudarte</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="acerca.html">Acerca de</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="portafolio.html">Portafolio</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+    <div class="container">
+        <h2>Formulario de Contacto</h2>
+        <p>Por favor, completa el siguiente formulario y nos pondremos en contacto contigo lo antes posible.</p>
+        <form action="#" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+        <h2>Información de Contacto</h2>
+        <p><strong>Teléfono:</strong> +51 987 654 321</p>
+        <p><strong>Correo:</strong> contacto@tomatodos.com</p>
+        <p><strong>Dirección:</strong> Calle Emprendedores 123, Lima, Perú</p>
+    </div>
+    <footer>
+        <p>&copy; 2024 Emprendimiento Tomatodos. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
